@@ -88,3 +88,42 @@ header {
 .icons img {
   max-width: 100%;
 }
+
+/*GRID*/
+.grid {
+  margin: 0 auto;
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  line-height: 1.4;
+}
+
+.grid > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin:  0rem 2.5rem;
+}
+
+.title {
+  width: 10rem;
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem 0.5rem 1.25rem;
+}
+
+.phil, .appt {
+  width: 35%;
+}
+
+.grid p {
+  align-items: flex-start;
+}
+
+.grid h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
