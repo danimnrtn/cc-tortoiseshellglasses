@@ -127,3 +127,22 @@ header {
   text-transform: uppercase;
   color: white;
 }
+
+/*FOOTER*/
+.footer {
+  background-color: azure;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 5rem;
+  width: 960px;
+}
+
+.footer img {
+  padding: 4rem 1rem 4rem 4rem;
+  height: 1.5rem;
+  max-width: 100%;
+}
