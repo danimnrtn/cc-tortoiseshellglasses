@@ -27,6 +27,7 @@ html {
 
 .logo-img img {
   padding-right: 1rem;
+  height: 1.5rem;
 }
 
 .navigation a {
@@ -38,8 +39,6 @@ html {
 
 .feature {
   display: flex;
-  width: 35%;
-  justify-content: space-between;
   background-color: white;
   font-size: 2rem;
   font-weight: bold;
@@ -146,3 +145,39 @@ header {
   height: 1.5rem;
   max-width: 100%;
 }
+
+/*-----MEDIA QUERY-------*/
+
+/*TABLET*/
+@media only screen
+  and (max-width: 1024px) {
+
+    .contain1 {
+      min-width: 100%;
+    }
+
+    .feature {
+      font-size: 1.33rem;
+      margin: 5rem 2rem 0rem 0rem;
+      padding: .75rem 4rem;
+    }
+
+    header {
+      height: 22rem;
+      padding-top: 0;
+    }
+
+    .footer {
+      min-width: 100%;
+    }
+
+  }
+
+/*PHONE*/
+@media only screen
+  and (max-width: 470px) {
+
+
+
+
+  }
